@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  #chat-container {
+    background-color: #222;
+    border-radius: 5px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  #messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    min-height: 200px;
+    max-height: 600px;
+    overflow-y: auto;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+  }
+  
+  #messages li {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background-color: #555;
+    color: #eee;
+  }
+  
+  #form {
+    display: flex;
+  }
+  
+  #input {
+    flex-grow: 1;
+    border: 1px solid #444;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #eee;
+  }
+  label {
+    color: #fff;
+  }
+  button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  /* ... existing styles ... */
+
+#nickname-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#nickname {
+  flex-grow: 1;
+  border: 1px solid #444;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #eee;
+  margin-right: 10px;
+}
+
+#setNickname {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#displayNickname {
+  color: #eee;
+  font-weight: bold;
+  margin-left: 5px;
+}
