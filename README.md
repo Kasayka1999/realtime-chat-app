@@ -2,6 +2,9 @@
 
 A simple yet interactive real-time chat application built using Node.js, Express, and Socket.IO.
 
+![preview](https://user-images.githubusercontent.com/121683375/232309747-1aa08f3b-96f9-4b81-b476-3dfa115b15cb.png)
+
+
 ## Features
 
 - Real-time messaging between users
